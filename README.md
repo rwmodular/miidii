@@ -3,8 +3,6 @@ miidii is a eurorack module that lets you play the manequins just friends module
 
 see https://www.random-works.co.uk/modules/midi for more information.
 
-firmware updates can be found on the releases page.
-
 to update the firmware:
 - hold the small button on the module circuit board while powering on your eurorack case
 - connect a usb cable between the module and your computer
