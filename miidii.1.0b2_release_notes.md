@@ -24,6 +24,7 @@ Devices such as the M8 tracker use running status and so would only trigger the 
 
 ## Note On 0 Velocity:
 Some devices send a midi Note On message with a velocity of 0 instead of a Note Off message.
+
 These are now treated as Note Off.
 
 ## Turn all voices off on switch up:
@@ -38,3 +39,10 @@ Another helper for stuck notes - clicking Stop in your DAW should send an 'all n
 When powering on with the switch in the up position miidii would put Just Friends into synth mode.
 
 It now doesn't send any messages to Just Friends when starting in the up position.
+
+## Enter firmware programming mode from the config page
+After this update you will no longer need to remove the module from your rack to update the firmware!
+
+Click the button in the web config tool to restart the module in firmware programming mode and just drop the firmware file on as usual.
+
+If you enter programming mode and change your mind just power off and on your case to start up as usual.
