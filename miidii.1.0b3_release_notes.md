@@ -33,7 +33,7 @@ If you move the switch on miidii to the up position, all just friends voices wil
 This can be handy if you ever get a note stuck on.
 
 ## Support midi CC 'all notes off':
-Another helper for stuck notes - clicking Stop in your DAW should send an 'all notes off' message.
+Another helper for stuck notes - clicking Stop in your DAW should send 'all notes off' messages.
 
 ## Don't set synth mode when powering on with switch up:
 When powering on with the switch in the up position miidii would put Just Friends into synth mode.
