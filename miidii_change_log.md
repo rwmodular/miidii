@@ -2,7 +2,7 @@
 
 ## version 1.1 beta
 ### Midi Tuning
-Added support for midi tuning messages for microtonal / microtuning - store and use upto 128 tuning tables.
+Added support for midi tuning messages for microtonal / microtuning - store and use upto 128 tuning tables. Table 0 cannot be altered.
 
 Support for midi bulk tuning request / response (retrieve tuning table) and single note tuning change (change tuning for one or more notes in a tuning table).
 
@@ -10,8 +10,13 @@ Use device ID 17 when configuring tuning.
 
 Recommended tool for managing tuning tables - https://lozjackson.github.io/mts-manager/
 
-Use midi CC 17 to select which tuning table to use.
+Use midi CC 17 to select which tuning table to use. The selected table will be used for all connected JF modules
 
+### Max Volume Setting
+The maximum output voltage can now be set using the config tool. The midi velocity (0 to 127) is scaled to the selected voltage.
+
+### Fixed pitch issues when saving settings
+After saving settings using the config tool, the incorrect pitch may get sent to JF. This is now fixed.
 
 ## version 1.0 20251012
 ### Support for 2 just friends modules:
