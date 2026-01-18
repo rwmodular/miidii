@@ -1,6 +1,6 @@
 # miidii change log
 
-## version 1.1 beta
+## version 1.1 20260118
 ### Midi Tuning
 Added support for midi tuning messages for microtonal / microtuning - store and use upto 128 tuning tables. Table 0 cannot be altered.
 
