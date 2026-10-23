@@ -1,5 +1,5 @@
 # miidii
-miidii is a eurorack module that lets you play the manequins just friends module using midi.
+miidii is a eurorack module that lets you play the manequins just friends and w/ modules using midi.
 
 see https://www.random-works.co.uk/modules/midi for more information.
 
