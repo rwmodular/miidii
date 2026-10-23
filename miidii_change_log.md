@@ -1,5 +1,16 @@
 # miidii change log
 
+## version 1.2 20261023
+### Midi Sustain Pedals
+Midi sustain pedals are now supported. Notes stay on while the pedal is held down and are released when it is released.
+
+### Mannequins W/
+Added support for the Mannequins W/ module synth mode.
+
+Upto 2 W/ in synth mode and up to 2 Just Friends are supported. 
+
+As with Just Friends, W/ supports pitch bend, midi tuning tables, midi sustain pedals etc. Full details in the update 1.2 manual.
+
 ## version 1.1 20260118
 ### Midi Tuning
 Added support for midi tuning messages for microtonal / microtuning - store and use upto 128 tuning tables. Table 0 cannot be altered.
